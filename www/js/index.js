@@ -7,14 +7,14 @@ var app = new Framework7({
             url: 'index.html',
         },
         {
-            path: '/about/',
-            url: '/pages/about.html',
+            path: '/page2/',
+            url: 'pages/page2.html',
         },
         {
-            path: '(.*)',
-            url: './pages/404.html',
-        },
-    ]
+            path: '/about/',
+            url: 'pages/about.html',
+        }
+    ],
 });
 
 var mainView = app.views.create('.view-main');
